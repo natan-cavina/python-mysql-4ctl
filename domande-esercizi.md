@@ -3,17 +3,17 @@
 - Qual è la differenza tra una query scritta direttamente nel codice e una query parametrizzata?
 ```text
 
-```
+```La query diretta inserisce direttamente i dati mentre la query parametrizzata usa dei simboli e li passa separatamente 
 
 - Qual è il vantaggio di avere funzioni di supporto come esegui_select() ed esegui_dml()?
 ```text
 
-```
+```Oltre a una gestione degli errori più efficace, select serve per leggere e dml per modificare 
 
 - In che senso i tre file non sono alternative equivalenti, ma evoluzioni progressive dello stesso codice?
 ```text
 
-```
+```File 1 serve per verificare la presenza della connesione, file 2 serve per dividere il lavoro in funzioni e il file 3 divide in dati in sezioni 
 
 
 ## Esercizi
